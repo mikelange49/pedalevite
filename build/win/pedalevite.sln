@@ -70,6 +70,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pvvid2raw", "pvvid2raw\pvvi
 		{163F412F-8097-4D8B-B6A1-97B9A7356C76} = {163F412F-8097-4D8B-B6A1-97B9A7356C76}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pv_osdet2", "pvvst\pv_osdet2\pv_osdet2.vcxproj", "{4DF68140-4401-4E94-8CED-29480BEA54F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{163F412F-8097-4D8B-B6A1-97B9A7356C76} = {163F412F-8097-4D8B-B6A1-97B9A7356C76}
+		{3A8EC9DB-9E71-4330-9682-52D6CAA05578} = {3A8EC9DB-9E71-4330-9682-52D6CAA05578}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -174,6 +180,14 @@ Global
 		{662E4F3F-0026-4CAC-9C5C-A8BAC1717A23}.Release|Win32.Build.0 = Release|Win32
 		{662E4F3F-0026-4CAC-9C5C-A8BAC1717A23}.Release|x64.ActiveCfg = Release|x64
 		{662E4F3F-0026-4CAC-9C5C-A8BAC1717A23}.Release|x64.Build.0 = Release|x64
+		{4DF68140-4401-4E94-8CED-29480BEA54F4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4DF68140-4401-4E94-8CED-29480BEA54F4}.Debug|Win32.Build.0 = Debug|Win32
+		{4DF68140-4401-4E94-8CED-29480BEA54F4}.Debug|x64.ActiveCfg = Debug|x64
+		{4DF68140-4401-4E94-8CED-29480BEA54F4}.Debug|x64.Build.0 = Debug|x64
+		{4DF68140-4401-4E94-8CED-29480BEA54F4}.Release|Win32.ActiveCfg = Release|Win32
+		{4DF68140-4401-4E94-8CED-29480BEA54F4}.Release|Win32.Build.0 = Release|Win32
+		{4DF68140-4401-4E94-8CED-29480BEA54F4}.Release|x64.ActiveCfg = Release|x64
+		{4DF68140-4401-4E94-8CED-29480BEA54F4}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

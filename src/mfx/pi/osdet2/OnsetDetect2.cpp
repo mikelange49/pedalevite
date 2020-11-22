@@ -255,7 +255,8 @@ void	OnsetDetect2::do_process_block (piapi::ProcInfo &proc)
 			if (val > delta && val > _beta)
 			{
 				const float    sig_on = float (sqrt (vol2_cur));
-				ret_on      = std::max (ret_on, sig_on);
+				//ret_on      = std::max (ret_on, sig_on);
+				ret_on      = 1;
 				_note_flag  = true;
 				_last_count = _last_delay - nbr_spl;
 			}
@@ -268,7 +269,8 @@ void	OnsetDetect2::do_process_block (piapi::ProcInfo &proc)
 			if (   vol2_cur * (_rls_ratio * _rls_ratio) < vol2_old
 			    || vol2_cur < _rls_thr * _rls_thr)
 			{
-				ret_off = 1;
+				//ret_off = 1;
+				ret_off = 0;
 				_note_flag = false;
 			}
 		}
